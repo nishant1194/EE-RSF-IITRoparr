@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../images/logo.jpeg";
+import './Navbarr.css'
 
 function Navbar() {
   return (
@@ -10,7 +11,7 @@ function Navbar() {
         className="navbar navbar-expand-lg navbar-dark bg-dark"
       >
         <div className="container-xl">
-          <img
+          <img className="logoo"
             src={Logo}
             alt=""
             style={{ height: "40px", width: "40px", marginRight: "20px" }}
@@ -20,7 +21,7 @@ function Navbar() {
             style={{ margin: "0px 49px 0px 0px " }}
             to="/"
           >
-            Reseach Scholar Forum
+            Research Scholar Forum
           </Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

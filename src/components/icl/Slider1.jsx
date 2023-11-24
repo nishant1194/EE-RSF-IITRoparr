@@ -2,6 +2,7 @@ import React from 'react'
 import Main from '../images/mainimg.jpeg'
 import Slider3 from '../images/Slider3.jpg'
 import Department from '../images/Department.jpeg'
+import './Slidder.css' ;
 
 function Slider1() {
 

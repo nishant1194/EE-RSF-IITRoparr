@@ -15,7 +15,7 @@ function Home() {
             <div className="row">
                 <div className="col-md-12">
                 <div className='line2'></div>
-                    <h1 style={{textAlign:"center", marginTop:"4px",fontSize:"50px"}}>About RSF-EE</h1>
+                    <div className='about' style={{textAlign:"center", marginTop:"4px",fontSize:"50px" , fontWeight:"500"}}>About RSF-EE</div>
                     <div className='line2'></div>
                     <p className='py-3 para' >Oftentimes, research scholars face obstacles and hurdles that can only be understood by their fellow researchers and faculty members who have faced similar challenges in their journeys. This initiative aims to provide a bridge between the scholars and faculty members, facilitating an environment of better cooperation and opportunity. This official student body provides research scholars a better outreach and support.</p>
                     <p className='para'>The most prominent objectives of this forum are to provide better communication and strong coordination between research scholars, which provides a platform for showcasing their research activities and establish a supportive relationship between scholars, faculty members, and alumni.</p>
