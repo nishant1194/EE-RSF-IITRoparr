@@ -1,0 +1,6 @@
+@media(max-width:500px){
+    .sliddder{
+        height: 300px;
+        width: 200px;
+    }
+}

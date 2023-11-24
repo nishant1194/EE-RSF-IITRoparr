@@ -1,13 +1,69 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Contact from './components/pages/Contact';
+import Team from './components/pages/Team';
+import Home from './components/pages/Home';
+import ResearchDay from './components/pages/ResearchDay';
+import Gallary from './components/pages/Gallary';
+import Workshop from './components/pages/Workshop';
+import InvitedTalkSeries from './components/pages/InvitedTalkSeries';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+
+  },
+
+  {
+    path: "/contact",
+    element: <Contact />,
+    
+  },
+  {
+    path: "/team",
+    element: <Team />,
+    
+  },
+  {
+    path: "/researchday",
+    element: <ResearchDay / >,
+    
+  },
+  {
+    path: "/gallary",
+    element: <Gallary / >,
+    
+  },
+  {
+    path: "/workshops",
+    element: <Workshop / >,
+    
+  },
+
+  {
+    path: "/talk-series",
+    element: <InvitedTalkSeries / >,
+    
+  },
+  
+]);
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     <RouterProvider router={router} />
   </React.StrictMode>
 );
 
