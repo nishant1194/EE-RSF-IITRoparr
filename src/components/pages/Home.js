@@ -42,6 +42,7 @@ function Home() {
       </section>
 
       <Footer />
+
      
     </div>
   )

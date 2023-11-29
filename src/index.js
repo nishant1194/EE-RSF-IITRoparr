@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+// import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/js/bootstrap'
+
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 import Contact from './components/pages/Contact';
 import Team from './components/pages/Team';
 import Home from './components/pages/Home';

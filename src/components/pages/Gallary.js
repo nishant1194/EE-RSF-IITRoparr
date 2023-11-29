@@ -1,9 +1,9 @@
 import React from "react";
 
-import Gallary1 from "../gallaryimg/gallary1.jpg"
+// import Gallary1 from "../gallaryimg/gallary1.jpg"
 import Gallary2 from "../gallaryimg/gallary2.jpg"
-import Gallary3 from "../gallaryimg/gallary3.jpg"
-import Gallary4 from "../gallaryimg/gallary4.jpg"
+// import Gallary3 from "../gallaryimg/gallary3.jpg"
+// import Gallary4 from "../gallaryimg/gallary4.jpg"
 import Gallary5 from "../gallaryimg/gallary5.jpg"
 import Gallary6 from "../gallaryimg/gallary6.jpg"
 import Gallary7 from "../gallaryimg/gallary7.jpg"
@@ -12,13 +12,13 @@ import Gallary9 from "../gallaryimg/gallary9.jpg"
 import Gallary10 from "../gallaryimg/gallary10.jpg"
 import Gallary11 from "../gallaryimg/gallary11.jpg"
 import Gallary12 from "../gallaryimg/gallary12.jpg"
-import Gallary13 from "../gallaryimg/gallary13.jpg"
+// import Gallary13 from "../gallaryimg/gallary13.jpg"
 import Gallary14 from "../gallaryimg/gallary14.jpg"
 import Gallary15 from "../gallaryimg/gallary15.jpg"
 import Gallary16 from "../gallaryimg/gallary16.jpg"
 import Gallary17 from "../gallaryimg/gallary17.jpg"
 import Gallary18 from "../gallaryimg/gallary18.jpg"
-import Gallary19 from "../gallaryimg/gallary19.jpg"
+// import Gallary19 from "../gallaryimg/gallary19.jpg"
 import Navbar from "../icl/Navbar";
 
 

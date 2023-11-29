@@ -3,7 +3,7 @@ import Navbar from "../icl/Navbar";
 import Slider1 from "../icl/Slider1";
 import Footer from "../icl/Footer";
 import "./Teamm.css";
-import Annadhu from "../images/Annadhu.jpg"
+// import Annadhu from "../images/Annadhu.jpg"
 import Satyam from "../images/Satyamsir.jpg"
 import Annima from "../images/Annima.jpg"
 import Sagnikk from "../images/Sagnikpresi.jpg"

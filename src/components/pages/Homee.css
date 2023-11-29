@@ -17,8 +17,10 @@
 
 @media(max-width:600px){
 
-    .about{
-        font-size: 30px;
-        font-weight: 200;
+    .col-md-12{
+        padding: 0px 20px 0px 20px;
+
     }
+
+    
 }
